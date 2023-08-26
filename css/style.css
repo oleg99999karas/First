@@ -1,0 +1,764 @@
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/raleway-v28-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/raleway-v28-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/raleway-v28-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* raleway-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/raleway-v28-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/poppins-v20-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/*_____________________________________________________________________________________________________________________________________________*/
+
+
+
+
+
+body {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1210px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    display: block;
+}
+
+.btn {
+    display: inline-flex;
+    color: #fff;
+    border-radius: 24px;
+    font-weight: 400px;
+    background: #023047;
+    padding: 16px 32px;
+    position: relative;
+    transition: .4s solid;
+}
+
+.btn:hover, .btn:focus, .btn::after {
+    background: transparent;
+}
+
+img {
+  display: block;
+  margin:0px ;
+}
+
+
+
+
+
+/* Header start */
+.header {
+    position: absolute;
+    margin-bottom: 115px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.header_wrapper {
+    margin-top: 26px;
+    height: 101px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_block {
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav_items {
+    display: flex;
+    column-gap: 60px;
+    margin-right: 60px;
+}
+
+.nav_item-link {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+
+.nav_item-link:hover, .nav_item-link:focus, .nav_item-link:active {
+    color: #023047;
+}
+
+.nav_item-link-btn {
+    border: 3px solid #023047;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.burger_menu {
+  display: none;
+}
+/* Header end */
+
+
+
+
+/* Intro start */
+.intro {
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    background-size: cover;
+    position: relative;
+}
+
+.intro_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    min-height: 768px;
+}
+
+.review_blocks {
+  text-align: center;
+  align-items: center;
+}
+
+.review_block_1 {
+  border-radius: 24px;
+  background: #FFF;
+  margin-bottom: 150px;
+}
+
+.review_block-title_1 {
+  padding: 7px 69px 0 69px;
+  color: #023047;
+  font-family: 'Poppins'sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.review_block-title_2 {
+  padding-top: 7px;
+  padding-left: 49px;
+  color: #023047;
+  font-family: 'Poppins'sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.review_block-subtitle {
+  padding-bottom: 15px;
+  color: #023047;
+  font-family: 'Poppins' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.review_block_2 {
+  border-radius: 24px;
+  background: #FFF;
+  margin-bottom: 120px;
+
+}
+
+.review_block_2-star {
+  display: flex;  
+  margin-left: 4px;
+}
+
+.intro_block {
+    padding-bottom: 220px;
+}
+
+.intro_title {
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 125%;
+    margin-bottom: 18px;
+}
+
+.intro_subtitle {
+    max-width: 457px;
+    color: #FFF;
+    font-family: 'Poppins' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+
+.intro_button-link {
+    border: 3px solid #DA722C;
+    background: #DA722C;
+    align-items: center;
+    transition: 0.2s ease;
+}
+
+.intro_button-link:hover, .intro_button-link:focus, .intro_button-link:active {
+    background: transparent;
+} 
+
+.intro_button-link-img {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.intro_button-link-text {
+    color: #FFF;
+    font-family: 'Poppins' sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Intro end */
+
+
+
+
+/* Info start */
+.info {
+  color: #000;
+}
+
+.info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  min-height: 546px;
+  margin-top: 100px;
+  margin-bottom: 144px;
+}
+
+.persone_block_1 {
+  position: relative;
+  border-radius: 24px;
+  background: #FFF;
+  box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+  min-height: 222px;
+  min-width: 450px;
+  margin-bottom: 50px;
+
+}
+
+.persone_block_2 {
+  position: relative;
+  border-radius: 24px;
+  background: #FFF;
+  box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+  min-height: 195px;
+  min-width: 450px;
+}
+
+.person_block-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.persone_block-title_1 {
+  border-radius: 24px;
+  background: #6F7DFB;
+  padding: 24px 32px;
+
+  color: #FFF;
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.persone_block-title_2 {
+  border-radius: 24px;
+  background: #DA722C;
+  padding: 24px 32px;
+
+  color: #FFF;
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.persone_block-name {
+  color: #023047;
+  font-family: 'Raleway'sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 120%;
+  padding-left: 32px;
+  padding: 30px;
+}
+
+.persone_block-name span {
+  color: #023047;
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.persone_block-image img {
+  padding-right: 32px;
+  transform: translateY(-24px);
+}
+
+.info_info-block {
+  padding-top: 46px;
+  margin-left: 20px;
+}
+
+.info_info-block-title {
+  max-width: 590px;
+  color: #023047;
+  font-family: 'Raleway'sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.info_info-block-title-tablet {
+  color: #023047;
+  font-family: 'Raleway'sans-serif;
+  font-size: 40px;
+  display: none;
+  max-width: 590px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.info_info-block-subtitle-tablet {
+  display: none;
+  max-width: 558px;
+  color: #023047;
+  font-family: 'Poppins' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.info_info-block-subtitle {
+  max-width: 558px;
+  color: #023047;
+  font-family: 'Poppins' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.info_info-block-button {
+  border-radius: 24px;
+  background: #DA722C;
+  transition: .2s ease;
+}
+
+.info_info-block-button:hover, .info_info-block-button:focus, .info_info-block-button:active {
+  background: #a75219;
+}
+
+.info_info-block-button-text {
+  color: #FFF;
+  font-family: 'Poppins' sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Info end */
+
+
+
+
+
+/* Courses start */
+.courses {
+  background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+  background-size: cover;
+  position: relative;
+}
+
+.courses_container {
+  max-width: 1210px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.courses_wrapper {
+  min-height: 785px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.courses_title {
+  margin-bottom: 56px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Raleway' sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.courses_blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.courses_block-wrapper {
+  margin: 0 32px;
+}
+
+.courses_block {
+  max-width: 526px;
+  max-height: 418px;
+  background-color: #FFF;
+  border-radius: 24px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.courses_block:last-child {
+  margin-right: 0;
+}
+
+.courses_block-image {
+  border-radius: 24px;
+  margin-bottom: 30px;
+}
+
+.courses_block-block {
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.courses_block-block-title {
+  max-width: 374px;
+  margin-right: 16px;
+  color: #023047;
+  font-family: 'Raleway' sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.courses_block-block-clock {
+  margin-right: 5px;
+}
+
+.courses_block-block-clock-image {
+  width: 20px;
+  height: 20px;
+}
+
+.courses_block-block-subtitle {
+  color: #023047;
+  font-family: 'Raleway' sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.courses_liner {
+  width: 462px;
+  height: 8px;
+  align-self: flex-end;
+  border-radius: 24px;
+  background: #023047;
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.courses_button {
+  display: block;
+  margin-left: auto;
+  border-radius: 24px;
+  border: 3px solid #DA722C;
+  background: #DA722C;
+  transition: .2s ease;
+}
+
+.courses_button:hover, .courses_button:focus, .courses_button:active {
+  background: transparent;
+}
+
+.courses_button-text {
+  color: #FFF;
+  font-family: 'Poppins' sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Courses end */
+
+
+
+
+
+/* Social start */
+.social {
+  position: relative;
+  text-align: center;
+}
+
+.social_title {
+  margin-top: 100px;
+  margin-bottom: 13px;
+  color: #023047;
+  font-family: 'Raleway' sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.social_subtitle {
+  margin-bottom: 45px;
+  color: #023047;
+  font-family: 'Poppins' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.social_blocks {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.social_block {
+  border-radius: 20px;
+  background: #000;
+  display: flex;
+  max-width: 310px;
+  max-height: 100px;
+  padding: 20px 31px;
+  column-gap: 14px;
+  transition: .2s ease;
+}
+
+.social_block:hover, .social_block:focus, .social_block:active {
+  background: rgb(34 32 32);
+}
+
+.social_block-image {
+  width: 60px;
+  height: 60px;
+}
+
+.social_block-text {
+  align-self: center;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Poppins' sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 200%;
+}
+/* Social end */
+
+
+
+
+
+/* Contacts start */
+.contacts {
+  background: #070917;
+  min-height: 409px;
+}
+
+.contacts_blocks {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 150px;
+  position: relative;
+}
+
+.contacts_block {
+}
+
+.text {
+  margin-left: 20px;
+  margin-bottom: 9px;
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+
+  transition: .2s ease;
+}
+
+.text:hover, .text:focus, .text:active {
+  color: #DA722C;
+}
+
+.contacts_block-text-1 {
+  margin-top: 70px;
+  margin-bottom: 14px;
+  color: #DA722C;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+.contacts_block-text-5 {
+  margin-bottom: 23px;
+}
+
+.contacts_block-text-6 {
+  margin-left: 0;
+  margin-bottom: 70px;
+  position: absolute;
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.contacts_block-text-gmail {
+  margin-bottom: 16px;
+  margin-left: 20px;
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.contacts_block-link {
+  display: flex;
+  column-gap: 28px;
+  margin-left: 20px;
+}
+
+.contacts_block-link-image {
+  width: 24px;
+  height: 24px;
+}
+
+.contacts_block-search {
+
+}
+/* Contacts end */

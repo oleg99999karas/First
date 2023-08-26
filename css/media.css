@@ -1,0 +1,256 @@
+/*.header, .intro, .info, .courses, .social, .contacts {
+    display: none;
+}*/
+
+
+@media (max-width: 970px) {
+    .intro_wrapper {
+        display: block;
+        padding-top: 215px;
+        padding-bottom: 0;
+    }
+
+    .intro_block_image img{
+        margin: auto;
+    }
+
+    .intro_block {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 962px) {
+    .intro_block_image img {
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .info_wrapper {
+        display: block;
+    }
+
+    .info_info-block-subtitle-tablet {
+        display: block;
+    }
+
+    .info_info-block-title-tablet {
+        display: block;
+    }
+
+    .info_info-block-title {
+        display: none;
+    }
+
+    .info_info-block-subtitle {
+        display: none;
+    }
+
+    .persone_block-image {
+
+    }
+
+    .persone_block_1 {
+        min-height: 0;
+        min-width: 0;
+    }
+
+    .persone_block_2 {
+        min-height: 0;
+        min-width: 0;
+    }
+
+    .info_info-block {
+        margin-left: 0;
+    }
+
+    .info_info-block-button {
+        display: block;
+        margin-left: auto;
+    }
+
+    .courses_blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses_block {
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+
+    .courses_block:last-child {
+        margin-bottom: 0;
+    }
+
+    .courses_button {
+        margin-right: 85px;
+    }
+
+    .courses_title  {
+        font-size: 40px;
+    }
+
+    .social_title {
+        font-size: 40px;
+    }
+    
+    .btn {
+        padding: 12px 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+    
+    .burger_menu {
+        display: block;
+    }
+
+    .header_block_btn {
+        display: none;
+        align-items: flex-end;
+    }
+    .info_wrapper {
+        display: block;
+    }
+
+    .info_info-block-subtitle-tablet {
+        display: block;
+    }
+
+    .info_info-block-title-tablet {
+        display: block;
+    }
+
+    .info_info-block-title {
+        display: none;
+    }
+
+    .info_info-block-subtitle {
+        display: none;
+    }
+
+    .persone_block_1 {
+        min-height: 0;
+        min-width: 0;
+    }
+
+    .persone_block_2 {
+        min-height: 0;
+        min-width: 0;
+    }
+
+    .info_info-block {
+        margin-left: 0;
+    }
+
+    .info_info-block-button {
+        display: block;
+        margin-left: auto;
+    }
+
+    .courses_button {
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .intro_title {
+        font-size: 36px;
+    }
+
+    .header_block {
+        font-size: 36px;
+    }
+
+    .btn {
+        padding: 12px 32px;
+    }
+
+    .info_info-block-title-tablet {
+        font-size: 30px;
+    }
+    
+    .info_info-block-button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .persone_block-name {
+        font-size: 18px;
+    }
+
+    .persone_block-name span {
+        font-size: 14px;
+    }
+    
+    .persone_block-image img {
+        padding-right: 10px;
+    }
+    
+    .courses_title {
+        font-size: 30px;
+    }
+    
+
+    .courses_block-block-title {
+        font-size: 20px;
+        margin-right: 0;
+    }
+    
+    .courses_block-block-subtitle {
+        font-size: 16px;
+    }
+
+    .courses_container {
+        padding: 0;
+    }
+
+    .social_title {
+        font-size: 30px;
+    }
+
+    .social_blocks {
+        display: block;
+    }
+
+    .social_block {
+        margin-bottom: 25px;
+        padding: 12px 31px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contacts_blocks {
+        display: block;
+        text-align: center;
+    }
+
+    .social_block-text {
+        font-size: 20px;
+    }
+
+    .contacts_block-text-1 {
+        margin-left: 20px;
+        padding-top: 60px;
+        margin-top: 0;
+    }
+
+    .contacts_block-text-5 {
+        margin-bottom: 0;
+    }
+    
+
+    .contacts_block-text-6 {
+        display: none;
+    }
+
+    .contacts_block-link {
+        justify-content: center;
+    }
+}
